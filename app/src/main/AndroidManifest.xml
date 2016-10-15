@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miguel.easyjobs">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".employeeView.NewExperienceActivity"
+            android:label="@string/title_activity_new_experience"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".employeeView.NewTitleActivity"
+            android:label="@string/title_activity_new_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".employeeView.SearchResultActivity"
+            android:label="@string/title_activity_search_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".employeeView.OfferActivity"
+            android:label="@string/title_activity_offer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".employeeView.EditProfileEmployeeActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".employeeView.EditTitleActivity"
+            android:label="@string/title_activity_edit_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".employeeView.EditExperienceActivity"
+            android:label="@string/title_activity_edit_experience"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".companyView.CompanyContainerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".employeeView.EmployeeContainerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".companyView.MyOfferActivity"
+            android:label="@string/title_activity_my_offer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".companyView.EditProfileCompanyActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".companyView.EmployeeInfoActivity"
+            android:label="@string/title_activity_employee_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".companyView.NewOfferActivity"
+            android:label="@string/title_activity_new_offer"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".employeeView.NotificationsEmployeeService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":employee_service" />
+        <service
+            android:name=".companyView.NotificationsCompanyService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":company_service" />
+
+    </application>
+
+</manifest>

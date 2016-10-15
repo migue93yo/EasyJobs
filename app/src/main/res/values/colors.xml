@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#597b91</color>
+    <color name="colorPrimaryDark">#597b91</color>
+    <!--<color name="colorDefault">#87c1ff</color>-->
+    <color name="colorAccent">#005d99</color>
+
+    <color name="colorFloatButtons">#269ad6</color>
+    <color name="colorMiniButtons">#8dbcd4</color>
+    <color name="black_semitransparent">#B2000000</color>
+
+    <color name="background_grease">#f3f3f3</color>
+    <color name="separator">#cfcfcfcf</color>
+</resources>

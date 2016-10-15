@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/four_fields_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        android:id="@+id/four_fields_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/four_fields_image"
+        style="@style/textBlackBold" />
+
+    <TextView
+        android:id="@+id/four_fields_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/four_fields_one"
+        android:layout_toRightOf="@id/four_fields_image"
+        style="@style/textBlack" />
+
+    <TextView
+        android:id="@+id/four_fields_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/four_fields_two"
+        android:layout_toRightOf="@id/four_fields_image" />
+
+    <TextView
+        android:id="@+id/four_fields_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/four_fields_three"
+        android:layout_toRightOf="@id/four_fields_image" />
+
+</RelativeLayout>

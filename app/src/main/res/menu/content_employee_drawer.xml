@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile_employee"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_search"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/nav_candidatures"
+            android:title="Cadidaturas" />
+    </group>
+
+    <item android:title="Más opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_setting_employee"
+                android:title="Ajustes" />
+        </menu>
+    </item>
+
+</menu>

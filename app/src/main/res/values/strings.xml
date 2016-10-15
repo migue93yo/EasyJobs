@@ -1,0 +1,174 @@
+<resources>
+    <!-- Títulos de la activity -->
+    <string name="app_name">EasyJobs</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="title_activity_setting">Ajustes</string>
+    <string name="title_activity_search_offers">Buscar ofertas</string>
+    <string name="title_activity_new_experience">Nueva experiencia</string>
+    <string name="title_activity_new_title">Nuevo título</string>
+    <string name="title_activity_new_offer">Nueva oferta</string>
+    <string name="title_activity_offer">Oferta</string>
+    <string name="title_activity_search_result">Resultado de la búsqueda</string>
+    <string name="title_activity_candidatures">Candidaturas</string>
+    <string name="title_activity_edit_profile">Editar perfil</string>
+    <string name="title_activity_edit_title">Editar titulo</string>
+    <string name="title_activity_edit_experience">Editar experiencia</string>
+    <string name="title_activity_my_offers">Mis ofertas</string>
+    <string name="title_activity_my_offer">Mi oferta</string>
+    <string name="title_activity_employee_information">Usuario inscrito</string>
+    <string name="title_activity_offers_list">Lista de ofertas</string>
+    <string name="title_activity_info_list_employee">InfoListEmployeeActivity</string>
+
+    <!-- Drawer navigator -->
+    <string name="profile_picture">Imagen de perfil</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Main -->
+    <string name="main_phrase">Un trabajo, una oportunidad</string>
+    <string name="main_register">REGISTRATE</string>
+    <string name="main_enter">ENTRAR</string>
+
+    <!-- Register and login -->
+    <string name="fullname">Nombre completo:</string>
+    <string name="email">Email:</string>
+    <string name="pass">Contraseña:</string>
+    <string name="register">Registrarse</string>
+    <string name="enter">Entrar</string>
+    <string name="image">Imagen</string>
+    <string name="show_pass">Mostrar contraseña</string>
+    <string name="employee">Empleado</string>
+    <string name="company">Empresa</string>
+
+    <!-- Profile -->
+    <string name="photo_profile">Foto de perfil</string>
+    <string name="edit_profile">Editar perfil</string>
+    <string name="experience">Experiencia</string>
+    <string name="experiences">Experiencias</string>
+    <string name="titles">Títulos</string>
+    <string name="title">Título</string>
+    <string name="year">años</string>
+    <string name="camera">Cámara</string>
+    <string name="camera_not_permise">No tiene permiso para acceder a la cámara</string>
+    <string name="making_photo">Tomar foto</string>
+    <string name="choose_gallery">Elegir de galería</string>
+    <string name="choose_an_option">Elige una opción</string>
+    <string name="titles_and_experiences_empty">No tiene títulos ni experiencias</string>
+
+    <!-- Form -->
+    <string name="name">Nombre</string>
+    <string name="province">Provincia</string>
+    <string name="select_province">Selecciona provincia</string>
+    <string name="description">Descripción</string>
+    <string name="optional_description">Descripción (Opcional)</string>
+    <string name="modify">Modificar</string>
+    <string name="birthdate">Fecha de nacimiento</string>
+    <string name="phone">Teléfono</string>
+    <string name="job">Puesto</string>
+    <string name="period_of_time">Periodo de tiempo</string>
+    <string name="date">Fecha</string>
+    <string name="datestart">Fecha de inicio</string>
+    <string name="datefinish">Fecha de fin</string>
+    <string name="datefinish2">Fecha de finalización</string>
+    <string name="currently_work">Trabajo aquí actualmente</string>
+    <string name="create">Crear</string>
+    <string name="center">Centro</string>
+    <string name="optional_average_rate">Nota media (Opcional)</string>
+    <string name="people_have_registered">personas se han inscrito a esta oferta</string>
+
+
+    <!-- Offer -->
+    <string name="inscription">Inscribirse</string>
+    <string name="cancel_inscription">Cancelar inscripción</string>
+    <string name="offer_description">Descripción de la oferta</string>
+    <string name="contract_type">Tipo de contrato</string>
+    <string name="workday_type">Tipo de jornada</string>
+    <string name="signed_up">personas se han unido a esta oferta</string>
+    <string name="registered_users">Usuarios inscritos</string>
+    <string name="state">Estado</string>
+    <string name="sign_on">Inscrito</string>
+    <string name="selected">Seleccionado</string>
+    <string name="finalized">Finalizado</string>
+    <string name="indefinited">Indefinido</string>
+    <string name="temporal">Temporal</string>
+    <string name="in_practices">En prácticas</string>
+    <string name="workday_complete">Jornada completa</string>
+    <string name="workday_half">Media jornada</string>
+    <string name="workday_partial">Jornada parcial</string>
+    <string name="visible_offer">Oferta visible</string>
+    <string name="candidature">Candidatura</string>
+    <string name="you_dont_have_candidatures">No tienes candidaturas</string>
+    <string name="offer">Oferta</string>
+
+    <!-- Search offers -->
+    <string name="search_keyword">Buscar por palabra clave</string>
+    <string name="search_province">Buscar por provincia</string>
+    <string name="search_job">Buscar por puesto de trabajo</string>
+    <string name="search_searchbutton">Buscar ofertas</string>
+    <string name="search_recent">Búsquedas recientes</string>
+
+    <!-- Setting -->
+    <string name="receibe_notifications">Recibir notificaciones</string>
+    <string name="close_session">Cerrar sesión</string>
+
+    <!-- Toast and dialog -->
+    <string name="toast_name_empty">El campo nombre está vacío</string>
+    <string name="toast_center_empty">El campo centro está vacío</string>
+    <string name="toast_province_empty">El campo provincia está vacío</string>
+    <string name="toast_job_empty">El campo puesto está vacío</string>
+    <string name="toast_title_empty">El campo título está vacío</string>
+    <string name="toast_company_empty">El campo empresa está vacío</string>
+    <string name="toast_description_empty">El campo descripción está vacío</string>
+    <string name="toast_date_empty">El campo fecha está vacío</string>
+    <string name="toast_datestart_empty">El campo fecha de inicio está vacío</string>
+    <string name="toast_datefinish_empty">El campo fecha de inicio está vacío</string>
+    <string name="toast_unvalidate_name">El título debe ser igual o inferior a 50 caracteres</string>
+    <string name="toast_unvalidate_center">El centro debe ser igual o inferior a 50 caracteres</string>
+    <string name="toast_unvalidate_job">El puesto debe ser igual o inferior a 50 caracteres</string>
+    <string name="toast_unvalidate_averange">El campo nota media debe ser positivo</string>
+    <string name="toast_unvalidate_email">Email no válido</string>
+    <string name="toast_unvalidate_title">El título debe ser igual o inferior a 150 caracteres</string>
+    <string name="toast_unvalidate_company">La empresa debe ser igual o inferior a 50 caracteres</string>
+    <string name="toast_unvalidate_province">La provincia debe ser igual o inferior a 20 caracteres</string>
+    <string name="toast_unvalidate_datestart">La fecha de inicio debe ser inferior a la de fin</string>
+    <string name="toast_unvalidate_datefinish">La fecha de fin debe ser superior a la de inicio</string>
+    <string name="toast_incorrect_format_phone">Formato del teléfono incorrecto</string>
+    <string name="toast_phone_number_only">El teléfono debe contener solo números</string>
+    <string name="toast_pass_range">La contraseña debe estar comprendida entre 6 y 12</string>
+    <string name="toast_correct_email">Email registrado corréctamente</string>
+    <string name="toast_correct_update">Se ha actualizado correctamente</string>
+    <string name="toast_update_error">Error al actualizar</string>
+    <string name="toast_email_exist">El email ya existe</string>
+    <string name="toast_create_successfull">Se ha eliminado correctamente</string>
+    <string name="toast_create_error">Error al eliminar</string>
+    <string name="toast_delete_successfull">Se ha eliminado correctamente</string>
+    <string name="toast_delete_error">Error al eliminar</string>
+    <string name="dialog_change_state">Cambiar estado</string>
+    <string name="dialog_confirm">Confirmar</string>
+    <string name="dialog_accept">Aceptar</string>
+    <string name="dialog_delete">Eliminar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_close_session">Cerrar sesión</string>
+    <string name="dialog_notification_enabled">Notificación activada</string>
+    <string name="dialog_notification_disabled">Notificación desactivada</string>
+    <string name="dialog_dont_result">No hay resultados</string>
+    <string name="dialog_ask_close_sesion">¿Quieres cerrar sesión?</string>
+    <string name="dialog_ask_visible_offer">¿Desea hacer visible esta oferta?</string>
+    <string name="dialog_ask_invisible_offer">¿Desea ocultar esta oferta?</string>
+    <string name="dialog_ask_change_visibility">Cambiar visibilidad</string>
+    <string name="dialog_ask_delete_expetience">¿Desea eliminar esta experiencia?</string>
+    <string name="dialog_ask_delete_title">¿Desea eliminar este título?</string>
+    <string name="dialog_ask_inscription">¿Quieres inscribirte a esta oferta?</string>
+    <string name="dialog_ask_delete_offer">¿Desea eliminar esta oferta?</string>
+    <string name="dialog_ask_notification">¿Desea recibir notificaciones?</string>
+    <string name="dialog_change_candidature">Su candidatura ha cambiado de estado</string>
+    <string name="dialog_cancel_inscription">¿Quieres cancelar la inscripción?</string>
+
+    <!-- Adapter -->
+    <string name="actually">Actualmente</string>
+    <string name="active">Activo</string>
+    <string name="inactive">Inactivo</string>
+    <string name="date_for">Hasta</string>
+    <string name="in">en</string>
+    <string name="title_activity_edit_offer">EditOfferActivity</string>
+</resources>

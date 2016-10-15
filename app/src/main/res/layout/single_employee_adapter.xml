@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/single_employee_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/single_employee_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textBlackBold"
+        android:layout_toRightOf="@+id/single_employee_image" />
+
+    <TextView
+        android:id="@+id/single_employee_province"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/single_employee_image"
+        android:layout_below="@+id/single_employee_fullname"
+        style="@style/textBlack" />
+
+    <TextView
+        android:id="@+id/single_employee_birthdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/single_employee_image"
+        android:layout_below="@+id/single_employee_province" />
+
+    <View
+        android:id="@+id/single_employee_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator"
+        android:layout_below="@+id/single_employee_image" />
+
+</RelativeLayout>

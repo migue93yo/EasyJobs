@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.miguel.easyjobs.companyView.EditProfileCompanyActivity"
+    tools:showIn="@layout/app_bar_edit_profile_company">
+
+    <EditText
+        android:id="@+id/edit_profile_company_name"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/separator_form" />
+
+    <EditText
+        android:id="@+id/edit_profile_company_province"
+        android:hint="@string/select_province"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_profile_company_name"
+        android:layout_marginBottom="@dimen/separator_form" />
+
+    <EditText
+        android:hint="@string/description"
+        android:id="@+id/edit_profile_company_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_profile_company_province" />
+
+    <Button
+        android:id="@+id/edit_profile_company_edit"
+        android:text="@string/modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/standar_button"
+        style="@style/buttonStyle" />
+
+</RelativeLayout>
